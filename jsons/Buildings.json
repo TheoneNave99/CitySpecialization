@@ -1,25 +1,55 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Manufacturing Capital",
+		"cost": 400,
+		"production": 4,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"percentStatBonus": {"production": 100},
+		"uniques": ["Cost increases by [50] per owned city"],
+		"requiredTech": "Construction"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+		"name": "Economic Capital",
+		"cost": 400,
+		"gold": 4,
+		"isNationalWonder": true,
+		"percentStatBonus": {"gold": 100},
+		"uniques": ["Cost increases by [50] per owned city"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Cultural Capital",
+		"cost": 400,
+		"culture": 4,
+		"isNationalWonder": true,
+		"percentStatBonus": {"culture": 100},
+		"uniques": ["Cost increases by [50] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Religious Capital",
+		"cost": 400,
+		"faith": 4,
+		"isNationalWonder": true,
+		"percentStatBonus": {"faith": 100},
+		"uniques": ["Cost increases by [50] per owned city"],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Scientific Capital",
+		"cost": 400,
+		"science": 4,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 100},
+		"uniques": ["Cost increases by [50] per owned city"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Agricultural Capital",
+		"cost": 300,
+		"food": 4,
+		"isNationalWonder": true,
+		"percentStatBonus": {"food": 50},
+		"requiredTech": "Agriculture"
+	},
 ]
