@@ -37,19 +37,19 @@
 	},
 	{
 		"name": "Scientific Capital",
-		"cost": 400,
+		"cost": 300,
 		"science": 4,
 		"isNationalWonder": true,
-		"percentStatBonus": {"science": 100},
+		"percentStatBonus": {"science": 50},
 		"uniques": ["Cost increases by [50] per owned city"],
 		"requiredTech": "Education"
 	},
 	{
 		"name": "Agricultural Capital",
-		"cost": 300,
+		"cost": 400,
 		"food": 4,
 		"isNationalWonder": true,
-		"percentStatBonus": {"food": 50},
+		"percentStatBonus": {"food": 100},
 		"requiredTech": "Agriculture"
 	},
 ]
